@@ -3,7 +3,7 @@ name: build-and-push-release-image
 on:
   push:
     tags:
-      # Run on pushing tags like 'v1.0.0'
+      # Run on pushoing tags like 'v1.0.0'
       - "v*.*.*"
     branches:
       # Run on pushing branches like 'v1.0.0'
